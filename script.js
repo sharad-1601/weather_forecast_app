@@ -21,11 +21,17 @@ button.addEventListener('click' , async () => {
     const input = val.value
     const result = await getData(input)
     city_loc.innerText = `${result.location.name} - ${result.location.region}, ${result.location.country}`
+    city_loc.style.color = 'red'
     city_temperature.innerText = result.current.temp_c
+    city_temperature.style.color = 'brown'
     city_timezone.innerText = result.location.tz_id
+    city_timezone.style.color = 'brown'
     city_hummidity.innerText = result.current.humidity
+    city_hummidity.style.color = 'brown'
     city_longitude.innerText = result.location.lon
+    city_longitude.style.color = 'brown'
     city_latitude.innerText = result.location.lat
+    city_latitude.style.color = 'brown'
 
 })
 
