@@ -1,0 +1,92 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2rem;
+    color: darkblue;
+}
+
+/* Container styles */
+div {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* Input and button styles */
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    background-color: #ff9800;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e68900;
+}
+
+/* Results section styles */
+h3 {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+span {
+    font-weight: bold;
+}
+
+/* Color changes */
+#city_location {
+    color: red;
+}
+
+#city_temperature {
+    color: brown;
+}
+
+#city_timezone {
+    color: brown;
+}
+
+#city_hummidity {
+    color: brown;
+}
+
+#city_longitude {
+    color: brown;
+}
+
+#city_latitude {
+    color: brown;
+}
